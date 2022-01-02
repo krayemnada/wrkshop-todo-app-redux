@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(245, 16, 176) 0%,
+    rgba(100, 115, 255, 1) 100%
+  );
+  overflow: hidden;
+}
+.App {
+  background: #d4e7f5;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 40%;
+  margin: 2.5% auto;
+  height: 90vh;
+  border-radius: 8px;
+}
+h1 {
+  color: rgb(11, 114, 133);
+  font-size: 2rem;
+  margin: 20px auto;
+}
+input {
+  outline: none;
+  border: 2px solid #cd24e4;
+  padding: 17px 32px 14px 16px;
+  background: transparent;
+  width: 400px;
+  height: 50px;
+  border-radius: 4px 0 0 4px;
+  color: white;
+}
+.add button {
+  outline: none;
+  border: none;
+  padding: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(202, 14, 219) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+  
+}
+.list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+}
+.task {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+  border-radius: 6px;
+  border:none;
+  margin: 20px auto;
+  background: linear-gradient(
+    90deg,
+    rgb(192, 255, 20) 0%,
+    rgba(255, 84, 17, 1) 100%
+  );
+  
+  padding: 5px 10px;
+font-size: 2px;
+}
+.task button {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  width: 80px;
+  height: 40px;
+  transition: all 0.5s;
+}
+.task button:hover {
+  background: wheat;
+  color: #000;
+}
+
+
+.task:nth-child(4n + 1) {
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgb(225, 250, 0) 100%
+  );
+}
+
+.task:nth-child(4n + 2) {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 12, 241, 1) 0%,
+    rgb(0, 192, 250) 100%
+  );
+}
+
+.task:nth-child(4n + 3) {
+  background: linear-gradient(
+    90deg,
+    rgb(24, 20, 255) 0%,
+    rgb(17, 255, 49) 100%
+  );
+}
