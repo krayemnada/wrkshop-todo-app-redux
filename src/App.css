@@ -14,7 +14,7 @@ body {
   overflow: hidden;
 }
 .App {
-  background: #d4e7f5;
+  background: #8e0793;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -53,13 +53,13 @@ input {
   border-radius: 0 4px 4px 0;
   
 }
-.list{
+/* .list{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
  
-}
+} */
 .task {
   color: white;
   display: flex;

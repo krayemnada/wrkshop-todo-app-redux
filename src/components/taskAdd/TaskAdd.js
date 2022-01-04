@@ -24,7 +24,7 @@ function TaskAdd(props) {
                 <input  className='add' type="text" placeholder="Enter Your Task Here ... " id="description" onChange={e =>  setDescription(e.target.value)} />
             </div>
             <div>
-                <Button type="submit" variant="success" className='task'>Add</Button>
+                <Button type="submit" variant="success" className='task'><i class="fas fa-plus-circle"></i></Button>
             </div>
         </form>
     )

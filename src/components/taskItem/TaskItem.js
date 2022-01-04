@@ -14,7 +14,8 @@ function TaskItem({task}) {
             <Button variant={ task.isDone ? "danger" : "success" } 
                 className='task'
                 onClick={()=>{dispatch(doneTask({ id: task.id, isDone: !task.isDone }))}}>
-               {task.isDone ? "Back" : "Done"}
+               {/* {task.isDone ? "Back" : "Done"} */}
+               <i class="fas fa-check-double"></i>
             </Button>
             
             <EditTask task={task} />
